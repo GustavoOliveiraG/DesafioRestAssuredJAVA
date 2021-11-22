@@ -72,7 +72,7 @@ Desafio da Base 2 para automação de API.
 
 ## Desafio:
 
-Links do desafio: https://sites.google.com/base2.com.br/intranet/gest%C3%A3o-de-pessoas/desafios-qa
+Desafio Automação - APIs REST
 
 ## Testes
 
