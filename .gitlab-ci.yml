@@ -1,0 +1,47 @@
+stages:
+  - test
+
+test:
+  stage: test
+  tags:
+    - Shell
+  script:
+    - echo "Ola Mundo"
+    - powershell mvn clean
+    - - powershell mvn test
+
+
+
+
+
+
+
+
+
+
+
+  ###############################
+#image: maven:latest
+
+#services:
+#  - name: mariadb
+
+#variables:
+  #Configure mysql service (https://hub.docker.com/_/mysql/)
+#  MYSQL_ROOT_PASSWORD: root
+#  MYSQL_DATABASE: bugtracker
+#  MYSQL_USER: mantisbt
+#  MYSQL_PASSWORD: mantisbt
+
+#connect:
+#  image: mariadb
+
+#  script:
+#    - echo "SELECT 'OK';"
+#stages:
+#  - test
+
+#test:
+#  stage: test
+#  script:
+#    - mvn test

@@ -1,0 +1,17 @@
+{
+  "id": 15,
+  "name": "$projectName",
+  "status": {
+    "id": $statusID,
+    "name": "$statusName",
+    "label": "$statusName"
+  },
+  "description": "$descriptionText",
+  "enabled": $enableID,
+  "file_path": "",
+  "view_state": {
+    "id": "$viewID",
+    "name": "$viewName",
+    "label": "$viewName"
+  }
+}

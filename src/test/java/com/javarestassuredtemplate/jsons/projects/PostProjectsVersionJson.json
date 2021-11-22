@@ -1,0 +1,7 @@
+{
+  "name": "$projectVersion",
+  "description": "$projectDescription",
+  "released": "$projectRelease",
+  "obsolete": "$projectObsolete",
+  "timestamp": "$projectDate"
+}
