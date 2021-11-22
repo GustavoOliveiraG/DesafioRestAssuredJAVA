@@ -4,11 +4,11 @@ stages:
 test:
   stage: test
   tags:
-    - Shell
+    - shell
   script:
-    - echo "Ola Mundo"
+    - echo "Teste Automatico"
     - powershell mvn clean
-    - - powershell mvn test
+    - powershell mvn test
 
 
 
@@ -20,7 +20,9 @@ test:
 
 
 
-  ###############################
+##############################
+#Teste CI com BD
+##############################
 #image: maven:latest
 
 #services:
